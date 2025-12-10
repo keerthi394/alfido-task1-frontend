@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .bio {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Vanga Keerthi Reddy</h1>
+
+        <img src="https://via.placeholder.com/200" alt="My Photo">
+
+        <p class="bio">
+            Hello! I am a B.Tech CSE student passionate about web development, 
+            cloud computing, and AI technologies. I love learning new skills and 
+            building real-world projects that solve practical problems.
+        </p>
+    </div>
+
+</body>
+</html>
